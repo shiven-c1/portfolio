@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiven Rewatkar - Web Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #2c5aa0;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #2c5aa0;
+            margin-bottom: 5px;
+        }
+
+        .header h2 {
+            font-size: 1.3em;
+            color: #666;
+            font-weight: normal;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            font-size: 0.95em;
+            color: #555;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 1.4em;
+            color: #2c5aa0;
+            border-bottom: 2px solid #2c5aa0;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .summary {
+            text-align: justify;
+            font-size: 0.95em;
+            line-height: 1.7;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            font-size: 0.9em;
+        }
+
+        .skill-category {
+            margin-bottom: 8px;
+        }
+
+        .skill-category strong {
+            color: #2c5aa0;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 4px solid #2c5aa0;
+            background: #f8f9fa;
+        }
+
+        .project h3 {
+            color: #2c5aa0;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .project-link {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+
+        .project-desc {
+            font-size: 0.9em;
+            margin: 8px 0;
+            font-style: italic;
+        }
+
+        .project ul {
+            margin-left: 20px;
+            font-size: 0.85em;
+        }
+
+        .project li {
+            margin-bottom: 3px;
+        }
+
+        .services-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            font-size: 0.9em;
+        }
+
+        .service-item {
+            padding: 8px;
+            background: #f0f4f8;
+            border-radius: 5px;
+            border-left: 3px solid #2c5aa0;
+        }
+
+        .education {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .why-choose {
+            background: #e8f4fd;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .why-choose ul {
+            margin-left: 20px;
+        }
+
+        .why-choose li {
+            margin-bottom: 5px;
+        }
+
+        .cta {
+            text-align: center;
+            background: #2c5aa0;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        @media print {
+            body {
+                max-width: none;
+                margin: 0;
+                padding: 15px;
+                font-size: 12px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .section {
+                margin-bottom: 20px;
+            }
+
+            .project {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Shiven Rewatkar</h1>
+        <h2>Web Developer & Full-Stack Engineer</h2>
+        <div class="contact-info">
+            📧 shivenrewatkar@gmail.com | 📱 +91 7020 685839 | 💼 https://www.linkedin.com/in/shiven-rewatkar-5542ba315/
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <div class="summary">
+            Passionate web developer with expertise in full-stack development, cloud engineering, and DevOps. I help businesses establish strong online presence through modern, scalable websites and applications. From concept to deployment, I deliver client-focused solutions with clear communication and reliable support.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skill-category"><strong>Frontend:</strong> HTML5, CSS3, JavaScript, React.js, Responsive Design</div>
+            <div class="skill-category"><strong>Backend:</strong> Node.js, Express.js, Python</div>
+            <div class="skill-category"><strong>Databases:</strong> MongoDB, SQL Server</div>
+            <div class="skill-category"><strong>CMS:</strong> WordPress, Shopify</div>
+            <div class="skill-category"><strong>Cloud & DevOps:</strong> AWS, Docker, Kubernetes, Jenkins, GitHub, CI/CD</div>
+            <div class="skill-category"><strong>Tools:</strong> Git, Linux, Terraform, Ansible, Power BI</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Featured Projects</div>
+
+        <div class="project">
+            <h3>🏠 Real Estate Website</h3>
+            <div class="project-desc">Dynamic property search platform with instant communication features</div>
+            <ul>
+                <li>Real-time chat and call integration for lead generation</li>
+                <li>Modern UI/UX for seamless property browsing</li>
+                <li>Built for immediate client-agent connections</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>🎓 Campus Connect Platform</h3>
+            <a href="https://subtle-dolphin-aeb6bd.netlify.app/" class="project-link">Live Demo: subtle-dolphin-aeb6bd.netlify.app</a>
+            <div class="project-desc">Student guidance platform for college and accommodation selection</div>
+            <ul>
+                <li>Search and compare colleges by course, fees, and location</li>
+                <li>Find nearby PG/hostel accommodations</li>
+                <li>Advanced filtering and search functionality</li>
+                <li>Student-college-accommodation provider connection system</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>👕E-Commerce Website</h3>
+            <a href="http://www.bigboyclothing66.com" class="project-link">Live Site: bigboyclothing66.com</a>
+            <div class="project-desc">Complete online fashion store with full e-commerce functionality</div>
+            <ul>
+                <li>WordPress-powered with custom features</li>
+                <li>Integrated payment gateway and secure checkout</li>
+                <li>Responsive design with custom banner graphics</li>
+                <li>End-to-end project delivery and client collaboration</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>📊 Power BI Sales Dashboard</h3>
+            <div class="project-desc">Business intelligence solution for data-driven decision making</div>
+            <ul>
+                <li>Multi-source data integration (Excel, SQL Server)</li>
+                <li>KPI tracking with YoY growth analysis</li>
+                <li>Dynamic filtering and interactive visualizations</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Services Offered</div>
+        <div class="services-list">
+            <div class="service-item">✅ Responsive Website Development</div>
+            <div class="service-item">✅ E-Commerce Solutions</div>
+            <div class="service-item">✅ Full-Stack Web Applications</div>
+            <div class="service-item">✅ UI/UX Design & Optimization</div>
+            <div class="service-item">✅ Cloud Hosting & Deployment</div>
+            <div class="service-item">✅ CI/CD Pipeline Setup</div>
+            <div class="service-item">✅ Website Maintenance & SEO</div>
+            <div class="service-item">✅ Custom Dashboard Development</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education & Certifications</div>
+        <div class="education">
+            <strong>B.Tech Computer Science Engineering</strong><br>
+            GH Raisoni University, Nagpur (2022-2025) | CGPA: 70.00<br><br>
+
+            <strong>Certifications:</strong><br>
+            • AWS Cloud Practitioner Essentials<br>
+            • Complete Python: Zero to Mastery (Udemy)<br>
+            • Introduction to DevOps
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Why Choose Me?</div>
+        <div class="why-choose">
+            <ul>
+                <li><strong>🚀 Fast Delivery:</strong> Quick turnaround without compromising quality</li>
+                <li><strong>💡 Client-Focused:</strong> Clear communication and collaborative approach</li>
+                <li><strong>🛠️ Technical Excellence:</strong> Modern technologies and best practices</li>
+                <li><strong>📈 Business Understanding:</strong> Solutions that drive real results</li>
+                <li><strong>🔧 Full Support:</strong> From concept to post-launch maintenance</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cta">
+        <strong>Ready to build something amazing together?</strong><br>
+        <strong>Let's discuss your project today!</strong><br><br>
+        📧 shivenrewatkar@gmail.com | 📱 +917020685839
+    </div>
+</body>
+</html>
