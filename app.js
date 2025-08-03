@@ -249,7 +249,7 @@ function initContactForm() {
         
         setTimeout(() => {
             // Create mailto link
-            const whatsappNumber = '919422167933';  // Your WhatsApp number with country code, no '+' or spaces
+            const whatsappNumber = '917020685839';  // Your WhatsApp number with country code, no '+' or spaces
 const whatsappMessage =
     `Hello Shiven,%0A%0A` +
     `I would like to get in touch.%0A%0A` +
