@@ -203,126 +203,191 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Some of my recent work and accomplishments</p>
+    <!-- Projects Section -->
+<section id="projects" class="projects">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-subtitle">Some of my recent work and accomplishments</p>
+    </div>
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Development</button>
+      <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+      <button class="filter-btn" data-filter="analytics">Data Analytics</button>
+      <!-- Optional: add service filter button if you want -->
+      <!-- <button class="filter-btn" data-filter="service">Service</button> -->
+    </div>
+    <div class="projects-grid">
+
+      <!-- Real Estate Website Card -->
+      <div class="project-card" data-category="web">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="https://builderrr.netlify.app/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                Live Demo 1
+              </a>
+              <a href="https://incomparable-concha-0c8681.netlify.app/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                Live Demo 2
+              </a>
             </div>
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="web">Web Development</button>
-                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
-                <button class="filter-btn" data-filter="analytics">Data Analytics</button>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card" data-category="web">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://builderrr.netlify.app/" target="_blank" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Live Demo 1
-                                </a>
-                                <a href="https://incomparable-concha-0c8681.netlify.app/" target="_blank" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Live Demo 2
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-placeholder">
-                            <i class="fas fa-home"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Real Estate Website</h3>
-                        <p>Dynamic property search platform with instant communication features and real-time chat integration.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">React</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-category="web">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://subtle-dolphin-aeb6bd.netlify.app/" target="_blank" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Live Demo
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-placeholder">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Campus Connect Platform</h3>
-                        <p>Student guidance platform for college and accommodation selection with advanced filtering capabilities.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">API Integration</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-category="ecommerce">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="http://www.bigboyclothing66.com" target="_blank" class="project-link">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Live Site
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-placeholder">
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>E-Commerce Website</h3>
-                        <p>Complete online fashion store with full e-commerce functionality and secure payment integration.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">WordPress</span>
-                            <span class="tech-tag">PHP</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">Payment Gateway</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card" data-category="analytics">
-                    <div class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link disabled">
-                                    <i class="fas fa-eye"></i>
-                                    Private Project
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project-placeholder">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Power BI Sales Dashboard</h3>
-                        <p>Business intelligence solution for data-driven decision making with KPI tracking and analysis.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Power BI</span>
-                            <span class="tech-tag">Excel</span>
-                            <span class="tech-tag">SQL Server</span>
-                            <span class="tech-tag">Data Analysis</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <div class="project-placeholder">
+            <i class="fas fa-home"></i>
+          </div>
         </div>
-    </section>
+        <div class="project-content">
+          <h3>Real Estate Website</h3>
+          <p>Dynamic property search platform with instant communication features and real-time chat integration.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">React</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Campus Connect Platform Card -->
+      <div class="project-card" data-category="web">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="https://subtle-dolphin-aeb6bd.netlify.app/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                Live Demo
+              </a>
+            </div>
+          </div>
+          <div class="project-placeholder">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Campus Connect Platform</h3>
+          <p>Student guidance platform for college and accommodation selection with advanced filtering capabilities.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">API Integration</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Original E-Commerce Website Card -->
+      <div class="project-card" data-category="ecommerce">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="http://www.bigboyclothing66.com" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                Live Site
+              </a>
+            </div>
+          </div>
+          <div class="project-placeholder">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>E-Commerce Website</h3>
+          <p>Complete online fashion store with full e-commerce functionality and secure payment integration.</p>
+          <div class="project-tech">
+            <span class="tech-tag">WordPress</span>
+            <span class="tech-tag">PHP</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">Payment Gateway</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Mrxmerch E-Commerce Website Card -->
+      <div class="project-card" data-category="ecommerce">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="https://mrxmerch.in/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                Visit Store
+              </a>
+            </div>
+          </div>
+          <div class="project-placeholder">
+            <i class="fas fa-shopping-bag"></i>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Mrxmerch E-Commerce Website</h3>
+          <p>Modern e-commerce platform offering a large variety of anime, pop-culture, and trendy merchandise online.</p>
+          <div class="project-tech">
+            <span class="tech-tag">E-Commerce</span>
+            <span class="tech-tag">Shop</span>
+            <span class="tech-tag">Custom Products</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Basic Harmonium Service Website Card -->
+      <div class="project-card" data-category="web">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="https://swarashruti.netlify.app/" target="_blank" class="project-link">
+                <i class="fas fa-external-link-alt"></i>
+                Visit Website
+              </a>
+            </div>
+          </div>
+          <div class="project-placeholder">
+            <i class="fas fa-music"></i>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Basic Harmonium Service Website</h3>
+          <p>A clean and informative site for harmonium service and music-related solutions.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">Service Website</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Power BI Sales Dashboard Card -->
+      <div class="project-card" data-category="analytics">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link disabled">
+                <i class="fas fa-eye"></i>
+                Private Project
+              </a>
+            </div>
+          </div>
+          <div class="project-placeholder">
+            <i class="fas fa-chart-line"></i>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3>Power BI Sales Dashboard</h3>
+          <p>Business intelligence solution for data-driven decision making with KPI tracking and analysis.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Power BI</span>
+            <span class="tech-tag">Excel</span>
+            <span class="tech-tag">SQL Server</span>
+            <span class="tech-tag">Data Analysis</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
