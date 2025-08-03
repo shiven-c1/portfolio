@@ -259,7 +259,8 @@ const whatsappMessage =
     `Message: ${encodeURIComponent(message)}`;
 
 const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
-window.open(whatsappURL, '_blank');
+window.location.href = whatsappURL;
+
 
             
             showNotification('Message prepared! Your email client should open shortly.', 'success');
